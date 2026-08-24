@@ -1,156 +1,82 @@
 # CLO.EAST
 
-CLO.EAST adalah aplikasi web berbasis **React + Vite** yang dikembangkan untuk kebutuhan CLO.EAST.
+**CLO.EAST** adalah platform digital yang dikembangkan untuk mendukung kebutuhan dan layanan CLO.EAST secara modern, mudah diakses, dan terintegrasi.
 
-## 🚀 Live Demo
+Website ini menjadi pusat informasi dan layanan digital CLO.EAST, dengan fokus pada pengalaman pengguna yang sederhana, cepat, dan responsif.
 
+## 🌐 Website
+
+**Live Website:**
 https://cloeastt-a11y.github.io/clo-east/
 
-## 🛠️ Tech Stack
+## ✨ Tentang CLO.EAST
 
-* **React** — Frontend
-* **Vite** — Build tool & development server
-* **Tailwind CSS** — Styling
-* **Firebase** — Authentication & backend services
-* **GitHub Pages** — Deployment
+CLO.EAST hadir sebagai platform digital untuk membantu menghubungkan kebutuhan pengguna dengan layanan yang disediakan oleh CLO.EAST.
 
-## 📁 Project Structure
+Website dirancang dengan pendekatan:
 
-```text
-clo-east/
-├── .github/
-│   └── workflows/
-│       └── deploy.yml
-├── public/
-├── src/
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
-```
+* Modern
+* Responsif
+* Mudah digunakan
+* Cepat dan ringan
+* Terintegrasi dengan layanan digital
 
-## 💻 Running Locally
+## 🛠️ Teknologi
 
-### 1. Clone repository
+Website CLO.EAST dibangun menggunakan teknologi web modern, antara lain:
 
-```bash
-git clone https://github.com/cloeastt-a11y/clo-east.git
-cd clo-east
-```
+* **React** — Application interface
+* **Vite** — Application build system
+* **Tailwind CSS** — User interface styling
+* **Firebase** — Authentication dan layanan backend
+* **GitHub Pages** — Web hosting dan deployment
 
-### 2. Install dependencies
+## 🔐 Keamanan
 
-```bash
-npm install
-```
+CLO.EAST menggunakan sistem autentikasi berbasis Firebase untuk mengelola akses pengguna.
 
-### 3. Start development server
+Informasi sensitif seperti password dan credential tidak disimpan secara langsung di dalam repository.
 
-```bash
-npm run dev
-```
+## 🚀 Deployment
 
-Aplikasi akan tersedia pada alamat yang ditampilkan oleh Vite, biasanya:
+Website menggunakan **GitHub Actions** untuk proses deployment otomatis.
+
+Setiap perubahan yang telah dipublikasikan pada branch utama akan diproses melalui pipeline:
 
 ```text
-http://localhost:5173
+Update Website
+      ↓
+GitHub Repository
+      ↓
+Automated Build
+      ↓
+Production Deployment
+      ↓
+CLO.EAST Website
 ```
 
-## 🔨 Build Production
-
-Untuk membuat production build:
-
-```bash
-npm run build
-```
-
-Hasil build akan berada di:
-
-```text
-dist/
-```
-
-Untuk melakukan preview hasil production build:
-
-```bash
-npm run preview
-```
-
-## 🔥 Firebase
-
-CLO.EAST menggunakan Firebase untuk kebutuhan autentikasi dan layanan backend.
-
-Pastikan konfigurasi Firebase pada project telah sesuai dengan environment yang digunakan.
-
-Untuk deployment GitHub Pages, domain berikut harus terdaftar sebagai **Authorized Domain** pada Firebase Authentication:
-
-```text
-cloeastt-a11y.github.io
-```
-
-> Jangan menyimpan password, private key, service account key, atau credential sensitif di repository.
-
-## 🌐 GitHub Pages Deployment
-
-Deployment dilakukan secara otomatis menggunakan **GitHub Actions**.
-
-Setiap kali perubahan di-push ke branch:
-
-```text
-main
-```
-
-workflow akan:
-
-```text
-Push to main
-     ↓
-Checkout repository
-     ↓
-Setup Node.js
-     ↓
-Install dependencies
-     ↓
-Build Vite application
-     ↓
-Configure GitHub Pages
-     ↓
-Upload build artifact
-     ↓
-Deploy to GitHub Pages
-```
-
-Workflow deployment berada di:
-
-```text
-.github/workflows/deploy.yml
-```
-
-Vite menggunakan base path repository agar asset dapat dimuat dengan benar pada GitHub Pages:
-
-```text
-/clo-east/
-```
-
-## 📜 Available Scripts
-
-| Command           | Description                    |
-| ----------------- | ------------------------------ |
-| `npm install`     | Install project dependencies   |
-| `npm run dev`     | Menjalankan development server |
-| `npm run build`   | Membuat production build       |
-| `npm run preview` | Preview production build       |
-
-## 📌 Deployment URL
-
-Production:
+Website production:
 
 **https://cloeastt-a11y.github.io/clo-east/**
 
-## 👨‍💻 Development
+## 📱 Platform
 
-Project ini dikembangkan dan dikelola oleh **CLO.EAST**.
+Website CLO.EAST dirancang agar dapat digunakan melalui:
+
+* Desktop
+* Laptop
+* Tablet
+* Smartphone
+
+## 📄 Status
+
+**Production**
+
+Website saat ini telah ter-deploy dan dapat diakses secara publik melalui GitHub Pages.
 
 ---
+
+**CLO.EAST**
+*Digital platform for CLO.EAST*
 
 © 2026 CLO.EAST. All rights reserved.
