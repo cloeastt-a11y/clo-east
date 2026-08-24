@@ -1,0 +1,6 @@
+{
+  "name": "CLO.EAST",
+  "description": "Modern hijab catalog and inventory management system with real-time stock tracking, public catalog, and admin management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
